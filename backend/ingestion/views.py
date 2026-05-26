@@ -3,7 +3,10 @@ from rest_framework.exceptions import NotFound, ValidationError
 from rest_framework.parsers import FormParser, JSONParser, MultiPartParser
 from rest_framework.response import Response
 from rest_framework.views import APIView
+from django.shortcuts import render
 
+def frontend(request):
+    return render(request, "index.html")
 from ingestion.models import (
     ApprovalReview,
     AuditEvent,

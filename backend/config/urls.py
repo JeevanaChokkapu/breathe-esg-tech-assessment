@@ -3,7 +3,12 @@ from django.urls import include, path
 from rest_framework.routers import DefaultRouter
 
 from ingestion import views
+from ingestion.views import frontend
+from django.urls import path
 
+urlpatterns = [
+    path("", frontend),
+]
 router = DefaultRouter()
 router.register("tenants", views.TenantViewSet, basename="tenant")
 router.register("data-sources", views.DataSourceViewSet, basename="data-source")
