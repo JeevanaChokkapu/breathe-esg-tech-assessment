@@ -89,3 +89,10 @@ CORS_ALLOW_HEADERS = list(default_headers) + [
     "x-analyst-email",
     "x-tenant-slug",
 ]
+STATIC_URL = "/static/"
+
+STATIC_ROOT = BASE_DIR / "staticfiles"
+
+STATICFILES_DIRS = [
+    BASE_DIR / "static",
+]

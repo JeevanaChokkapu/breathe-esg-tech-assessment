@@ -6,7 +6,7 @@ The project is intentionally compact:
 
 - `backend/` contains Django, Django REST Framework, PostgreSQL-ready models, ingestion services, validation, audit logging, and review APIs.
 - `frontend/` contains a Vite React analyst interface built with TailwindCSS, React Query, and Axios.
-- `docs/` explains modeling choices, decisions, tradeoffs, data sources, and Render deployment.
+- `docs/` explains modeling choices, decisions, tradeoffs, data sources, and Railway deployment.
 
 The system focuses on raw-to-normalized traceability, row-level review, tenant isolation, and immutable audit history rather than generic CRUD screens.
 
@@ -43,3 +43,7 @@ The code is deliberately organized around the assessment priorities:
 3. Review and audit APIs: `backend/ingestion/views.py`
 4. Analyst workbench: `frontend/src/App.jsx`
 5. Design documentation: `docs/`
+
+## Deployment
+
+Railway deployment steps are in `docs/DEPLOY_RAILWAY.md`.
