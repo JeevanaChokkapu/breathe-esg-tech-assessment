@@ -1,0 +1,5 @@
+invoice,meter,billing start,billing end,usage,unit,tariff
+UTL-9001,MTR-01,2026-03-17,2026-04-16,45600,kWh,HT Industrial
+UTL-9002,MTR-02,2026-04-01,2026-04-30,-200,kWh,Commercial
+UTL-9003,MTR-03,2026-01-01,2026-03-15,12,MWh,Commercial
+

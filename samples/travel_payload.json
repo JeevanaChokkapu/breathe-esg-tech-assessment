@@ -1,0 +1,23 @@
+{
+  "expenses": [
+    {
+      "expense_id": "TRV-1",
+      "type": "flight",
+      "transaction_date": "2026-04-11",
+      "origin": "DEL",
+      "destination": "SFO",
+      "distance": "12370",
+      "distance_unit": "km",
+      "vendor": "Concur Air"
+    },
+    {
+      "expense_id": "TRV-2",
+      "type": "flight",
+      "transaction_date": "2026-04-12",
+      "origin": "ZZZ",
+      "destination": "ZZZ",
+      "vendor": "Concur Air"
+    }
+  ]
+}
+

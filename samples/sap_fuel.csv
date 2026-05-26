@@ -1,0 +1,5 @@
+Rechnung,Werk,Lieferant,Belegdatum,Menge,Einheit
+INV-1001,PLANT-01,Acme Fuels,2026-04-03,1250,L
+INV-1002,PLANT-01,Acme Fuels,03/04/2026,62000,ltr
+INV-1002,PLANT-01,Acme Fuels,20260404,500,L
+
